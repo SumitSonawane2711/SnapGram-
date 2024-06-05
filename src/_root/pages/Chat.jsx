@@ -1,9 +1,8 @@
-import ChatRoom from '@/components/ui/shared/ChatRoom';
+
 import Loader from '@/components/ui/shared/Loader';
 import { useToast } from '@/components/ui/use-toast';
 import { useUserContext } from '@/context/AuthContext';
 import { useGetCreator} from '@/lib/react-query/queriesAndMutations'
-import { useState } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 
 const Chat = () => {
