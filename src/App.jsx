@@ -5,13 +5,12 @@ import SigninForm from './_auth/forms/SigninForm'
 import SignupForm from './_auth/forms/SignupForm'
 import { AllUsers, CreatePost, EditPost, Explore, Home, 
          LikedPosts, 
-         PostDetails, Profile, Saved,  }  from './_root/pages'
+         PostDetails, Profile, Saved, Chat }  from './_root/pages'
 import AuthLayout from './_auth/AuthLayout'
 import RootLayout from './_root/RootLayout'
 import {Toaster} from '@/components/ui/toaster'
 import UpdateProfile from './_root/pages/UpdateProfile'
-import LikedPost from './_root/pages/LikedPosts'
-import Chat from './_root/pages/chat'
+
 import ChatRoom from './components/ui/shared/ChatRoom'
 
 const  App = ()=> {
